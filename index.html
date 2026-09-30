@@ -1,0 +1,672 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TexasTreeExpert</title>
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="assets/css/select2.min.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <style id="aos-animation-fix">
+        /* AOS animation safety only */
+        html,
+        body {
+            overflow-x: hidden !important;
+        }
+
+        [data-aos] {
+            will-change: transform, opacity;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+        }
+
+        /* Make AOS transforms stay inside the viewport without disabling the animation */
+        .aos-init {
+            overflow: visible;
+        }
+
+        /* Smooth, noticeable motion */
+        [data-aos] {
+            transition-property: transform, opacity !important;
+            transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1) !important;
+        }
+    </style>
+
+</head>
+
+<body>
+	<!-- Navbar start-->
+
+  	<nav class="bg-Greenmain navbartop">
+		<div class="container">
+			<div class="row">
+				<div class="Licensenavbar" id="navbarNav">
+					<div class="leftSecnav">
+						<ul>
+							<li>Licensed, Bonded & insured </li>
+							<li>Locally owned & Operated </li>
+						</ul>
+					</div>
+					<div class="RightSecnav">
+						<a href="tel:+18328482010"><i class="fa-solid fa-phone-volume me-2"></i> 832-848-2010</a>
+						<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+						<a href="#"><i class="fa-brands fa-instagram"></i></a>
+						<a href="#"><i class="fa-brands fa-google"></i></a>
+						<a href="#"><i class="fa-brands fa-yelp"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+		<nav class="navbar navbar-expand-lg">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">
+				<img src="assets/images/texastree_expert_logo.webp" class="img-fluid" alt="Texas Tree Experts" title="Vibes">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+				aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+				aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+					<a class="navbar-brand" href="index.html">
+						<img src="assets/images/texastree_expert_logo.webp" class="img-fluid" alt="Vibes" title="Vibes">
+					</a>
+					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body flex-column">
+					<ul class="navbar-nav justify-content-end flex-grow-1  bottom-navbar">
+						<div class="d-flex justify-content-center gap-2">
+						<li class="nav-item "><a class="nav-link active" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+						<li class="nav-item"><a class="nav-link" href="about-us.html">About Us </a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Gallery </a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Special Offers </a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+						<li class="nav-item"><a class="nav-link btn-estimate" href="#">Get a Free Estimate</a></li>
+					</ul>
+					
+			</div>
+		</div>
+	</nav>
+
+	<!-- carousel -->
+	 	 <!-- carousel -->
+	<div id="carouseltree" class="carousel slide carousel-fade" data-bs-interval="4000" data-bs-ride="carousel">
+		<div class="carousel-indicators" id="carousel-indicators">
+			<button type="button" data-bs-target="#carouseltree" data-bs-slide-to="0" class="indecatorcircle active"
+				aria-current="true" aria-label="Slide 1"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="carouselimg img-fluid" style="background-image: url('assets/images/texastree_expert_banner.webp');"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 sol-12">
+							<div class="carouselContent">
+								<h2 data-aos="fade-right" data-aos-duration="900">PROFESSIONAL</h2>
+								<h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="150">TREE SERVICE <br>IN HOUSTON</h1>
+								<h3  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Safe. Reliable. Affordable.</h3>
+
+								<ul class="list-unstyled"  data-aos="fade-up" data-aos-duration="900" data-aos-delay="450">
+									<li>Licensed &amp; Insured</li>
+									<li>Emergency Service 24/7</li>
+									<li>Free Estimates</li>
+								</ul>
+
+								<div class="carouselButtons"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+									<a href="tel:+18328482010" class="btn btn-call">
+										<i class="fa-solid fa-phone-volume me-2"></i>
+										CALL NOW 832-848-2010
+									</a>
+
+									<a href="#estimate" class="btn-estimatefree">
+										<i class="fa-regular fa-calendar-days me-2"></i>
+										GET A FREE ESTIMATE
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Certified Section -->
+	<div class="container-fluid bg-greenDark certifiedSec" >
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12" data-aos="fade-right" data-aos-duration="900">
+						<div class="card certificateSec" >
+							<div class="row g-0">
+								<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+									<img src="assets/images/isa-certified-arborist.webp" class="img-fluid rounded-start" alt="ISA Certified Arborist">
+								</div>
+								<div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10">
+								<div class="card-body">
+									<h2 class="card-title">ISA Certified <br>Arborist</h2>
+								</div>
+								</div>
+							</div>
+							</div>
+					</div>
+					<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12"   data-aos="zoom-in" data-aos-duration="900" data-aos-delay="150" >
+						<div class="card certificateSec" >
+							<div class="row g-0">
+								<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+									<img src="assets/images/fully-insured.svg" class="img-fluid rounded" alt="ISA Certified Arborist">
+								</div>
+								<div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10">
+								<div class="card-body">
+									<h2 class="card-title">Fully insured</h2>
+								</div>
+								</div>
+							</div>
+							</div>
+					</div>
+					<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 position-relative" data-aos="fade-left" data-aos-duration="900" data-aos-delay="1300" >
+						<div class="card certificateSec" >
+							<div class="row g-0">
+								<div class="col-xxl-2 col-xl-3 col-lg-2 col-md-2 col-sm-2 col-2">
+									<img src="assets/images/locally_owned_&_operated.svg" class="img-fluid rounded-start" alt="ISA Certified Arborist">
+								</div>
+								<div class="col-xxl-10 col-xl-9 col-lg-10 col-md-10 col-sm-10 col-10">
+								<div class="card-body">
+									<h2 class="card-title">Locally owned & operated</h2>
+								</div>
+								</div>
+							</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Statistics Section -->
+	<div class="container-fluid bgLightWight certifiedSecmini">
+		<div class="row">
+			<div class="container">
+				<div class="row  ">
+					<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12" data-aos="zoom-in">
+						<div class="card SecondOurCards" >
+							<div class="row g-0">
+								<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+									<img src="assets/images/years-experience.svg" class="img-fluid rounded-start" alt="Years Experience">
+								</div>
+								<div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10">
+									<div class="card-body ms-1">
+										<h2 class="card-title">15+</h2>
+										<p>YEARS EXPERIENCE</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12" data-aos="zoom-in">
+						<div class="card SecondOurCards" >
+							<div class="row g-0">
+								<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+									<img src="assets/images/trees_removed.svg" class="img-fluid rounded-start" alt="Trees Removed">
+								</div>
+								<div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10">
+									<div class="card-body ms-1">
+										<h2 class="card-title">10,000+</h2>
+										<p>TREES REMOVED</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12" data-aos="zoom-in">
+						<div class="card SecondOurCards" >
+							<div class="row g-0">
+								<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+									<img src="assets/images/emergency_service.svg" class="img-fluid rounded-start" alt="Emergency Service">
+								</div>
+								<div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10">
+									<div class="card-body ms-1">
+										<h2 class="card-title">24/7</h2>
+										<p>EMERGENCY SERVICE</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12" data-aos="zoom-in">
+						<div class="card SecondOurCards" >
+							<div class="row g-0">
+								<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+									<img src="assets/images/satisfaction-guarantee.svg" class="img-fluid rounded-start" alt="Years Experience">
+								</div>
+								<div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10">
+									<div class="card-body ms-1">
+										<h2 class="card-title">100%</h2>
+										<p>SATISFACTION GUARANTEE</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end -->
+
+	<div class="container-fluid ptb-30s">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="col-xxl-8 offset-xl-2 col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-12 col-sm-12 col-12 text-center">
+						<h2 class="mainTitle" data-aos="zoom-in">Our Tree Services</h2>
+						<img src="assets/images/icon.svg" class="mb-2 img-fluid"  	data-aos="fade-down"  alt="Leaf Icon">
+						<p class="mainText "  data-aos="fade-up">Everything you need to keep your trees healthy and your property safe.</p>
+					</div>
+				</div>
+				<div class="row pt-20 g-4">
+					<div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-12 col-6" data-aos="zoom-in-up">
+						<div class="card ServiceCard">
+								<img src="assets/images/services/tree_removal.svg" class="card-img-top service img-fluid" alt="...">
+								<div class="card-body text-center  nopadding">
+									<h3 class="card-title Subtitle">Tree Removal</h3>
+									<p class="card-text mainText">Safe removal of trees of any size, even in tight or dangerous spaces.</p>
+								</div>
+								<div class="card-footer">
+									<a href="service_details.html" class="btn btn-learnmore stretched-link">LEARN MORE <i class="fa-solid fa-arrow-right"></i></a>
+								</div>
+						</div>
+					</div>
+					<div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-12 col-6"  data-aos="zoom-in-up">
+						<div class="card ServiceCard">
+								<img src="assets/images/services/tree_trimming.svg" class="card-img-top service img-fluid" alt="Tree Trimming">
+								<div class="card-body text-center nopadding">
+									<h3 class="card-title Subtitle">Tree Trimming</h3>
+									<p class="card-text mainText">Improve the health, appearance and safety of your trees.</p>
+								</div>
+								<div class="card-footer">
+									<a href="service_details.html" class="btn btn-learnmore stretched-link">LEARN MORE <i class="fa-solid fa-arrow-right"></i></a>
+								</div>
+						</div>
+					</div>
+					<div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-12 col-6"  data-aos="zoom-in-up">
+						<div class="card ServiceCard">
+								<img src="assets/images/services/stump_grinding.svg" class="card-img-top service img-fluid" alt="Stump Grinding">
+								<div class="card-body text-center nopadding">
+									<h3 class="card-title Subtitle">Stump Grinding</h3>
+									<p class="card-text mainText">Remove unsightly stumps and prevent new growth.</p>
+								</div>
+								<div class="card-footer">
+									<a href="service_details.html" class="btn btn-learnmore stretched-link">LEARN MORE <i class="fa-solid fa-arrow-right"></i></a>
+								</div>
+						</div>
+					</div>
+					<div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-12 col-6"  data-aos="zoom-in-up">
+						<div class="card ServiceCard">
+								<img src="assets/images/services/tree_removal.svg" class="card-img-top service img-fluid" alt="...">
+								<div class="card-body text-center nopadding">
+									<h3 class="card-title Subtitle">Tree Removal</h3>
+									<p class="card-text mainText">Safe removal of trees of any size, even in tight or dangerous spaces.</p>
+								</div>
+								<div class="card-footer">
+									<a href="service_details.html" class="btn btn-learnmore stretched-link">LEARN MORE <i class="fa-solid fa-arrow-right"></i></a>
+								</div>
+						</div>
+					</div>
+					<div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-12 col-6"  data-aos="zoom-in-up">
+						<div class="card ServiceCard">
+								<img src="assets/images/services/emergency_service.svg" class="card-img-top service img-fluid" alt="Emergency Service">
+								<div class="card-body text-center nopadding">
+									<h3 class="card-title Subtitle">Emergency Service</h3>
+									<p class="card-text mainText">24/7 storm damage response. We're here when you need us most.</p>
+								</div>
+								<div class="card-footer">
+									<a href="service_details.html" class="btn btn-learnmore stretched-link">LEARN MORE <i class="fa-solid fa-arrow-right"></i></a>
+								</div>
+						</div>
+					</div>
+					<div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-12 col-6"  data-aos="zoom-in-up">
+						<div class="card ServiceCard">
+								<img src="assets/images/services/land_clearing.svg" class="card-img-top service img-fluid" alt="Land Clearing">
+								<div class="card-body text-center nopadding">
+									<h3 class="card-title Subtitle">Land Clearing</h3>
+									<p class="card-text mainText">Lot clearing for construction, new builds and more.</p>
+								</div>
+								<div class="card-footer">
+									<a href="service_details.html" class="btn btn-learnmore stretched-link">LEARN MORE <i class="fa-solid fa-arrow-right"></i></a>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	 <!-- end -->
+
+	<!-- Before After -->
+	<div class="bg-Greenmain ">	  
+		<div class="container-fluid ptb-40">
+			<div class="row ">
+				<div class="container">
+					<div class="row g-4">
+						<!-- Before-After Card 1 -->
+						<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12" data-aos="fade-right">
+							<div class="card before-after-card p-3 shadow-sm border-0">
+								<div class="row g-2 position-relative align-items-center">
+									<!-- Center Arrow Icon -->
+									<div class="ba-divider-icon">
+										<i class="bi bi-chevron-right"></i>
+									</div>
+
+									<!-- Before Image Container -->
+									<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 position-relative" >
+										<img src="assets/images/images_1.webp" class="img-fluid rounded" alt="Before Tree">
+										<div class="ba-badge">
+											<span class="ba-title">BEFORE</span>
+											<span class="ba-desc">Overgrown Tree</span>
+										</div>
+									</div>
+
+									<!-- After Image Container -->
+									<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 position-relative"  >
+										<img src="assets/images/images_2.webp" class="img-fluid rounded" alt="After Tree">
+										<div class="ba-badge">
+											<span class="ba-title">AFTER</span>
+											<span class="ba-desc">Professional Tree Trimmer</span>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<!-- Before-After Card 2 -->
+						<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12" data-aos="zoom-in">
+							<div class="card before-after-card p-3 shadow-sm border-0">
+								<div class="row g-2 position-relative align-items-center">
+									<!-- Center Arrow Icon -->
+									<div class="ba-divider-icon">
+										<i class="bi bi-chevron-right"></i>
+									</div>
+
+									<!-- Before Image Container -->
+									<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 position-relative">
+										<img src="assets/images/images_3.webp" class="img-fluid rounded" alt="Before Tree">
+										<div class="ba-badge">
+											<span class="ba-title">BEFORE</span>
+										</div>
+									</div>
+
+									<!-- After Image Container -->
+									<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 position-relative" >
+										<img src="assets/images/images_4.webp" class="img-fluid rounded" alt="After Tree">
+										<div class="ba-badge">
+											<span class="ba-title">AFTER</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bg-greenTestimonial">
+		<div class="container-fluid ptb-30">
+			<div class="row">
+				<div class="container">
+					<div class="row">
+						<div class="col-xxl-6 col-xl-6 col-md-6 col-sm-6 col-lg-6 col-12"  data-aos="fade-right">
+							<h2 class="mainTitle text-white">TESTIMONIALS</h2>
+							<div class="owl-carousel owl-theme instaowl ptb-20">
+							<div class="item">
+									<div class="card testimonialCard" >
+										<div class="row gx-2 ">
+											<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+												<img src="assets/images/user.png" class="img-fluid rounded" alt="User">
+											</div>
+											<div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10">
+											<div class="card-body">
+												<p class="card-text mainText text-white">I needed a large Eugenia tree removed from the upper level of my back yard. I received bids from 3 companies then decided to go with Gabriel's. A crew of 3 showed up as scheduled and made quick work of removing the tree without complications, and they did a great job cleaning up afterwards. I recommend Gabriel's and would not hesitate using them again should the need arise.</p>
+											</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="card testimonialCard" >
+										<div class="row gx-2">
+											<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+												<img src="assets/images/user.png" class="img-fluid rounded" alt="User">
+											</div>
+											<div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10">
+											<div class="card-body">
+												<p class="card-text mainText text-white">I needed a large Eugenia tree removed from the upper level of my back yard. I received bids from 3 companies then decided to go with Gabriel's. A crew of 3 showed up as scheduled and made quick work of removing the tree without complications, and they did a great job cleaning up afterwards. I recommend Gabriel's and would not hesitate using them again should the need arise.</p>
+											</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="card testimonialCard" >
+										<div class="row gx-2">
+											<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+												<img src="assets/images/user.png" class="img-fluid rounded" alt="User">
+											</div>
+											<div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10">
+											<div class="card-body ">
+												<p class="card-text mainText text-white">I needed a large Eugenia tree removed from the upper level of my back yard. I received bids from 3 companies then decided to go with Gabriel's. A crew of 3 showed up as scheduled and made quick work of removing the tree without complications, and they did a great job cleaning up afterwards. I recommend Gabriel's and would not hesitate using them again should the need arise.</p>
+											</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							<div class="item">
+									<div class="card testimonialCard" >
+										<div class="row gx-2">
+											<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+												<img src="assets/images/user.png" class="img-fluid rounded" alt="User">
+											</div>
+											<div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10">
+											<div class="card-body">
+												<p class="card-text mainText text-white">I needed a large Eugenia tree removed from the upper level of my back yard. I received bids from 3 companies then decided to go with Gabriel's. A crew of 3 showed up as scheduled and made quick work of removing the tree without complications, and they did a great job cleaning up afterwards. I recommend Gabriel's and would not hesitate using them again should the need arise.</p>
+											</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							
+						</div>
+						</div>
+						<div class="col-xxl-6 col-xl-6 col-md-6 col-sm-6 col-lg-6 col-12" data-aos="zoom-in-left" data-aos-duration="900">
+							<h2 class="mainTitle text-white">OUR VIDEOS</h2>
+							<div class="ourvideo ptb-30"  data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="200">
+								<iframe width="560" height="370" src="https://www.youtube.com/embed/3c1ngjrwQgs?si=GF0HroXLG3k0vkpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid ptb-40">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<h2 class="mainTitle text-center" data-aos="fade-down" data-aos-duration="900">CONTACT US</h2>
+				</div>
+				<div class="row pt-20">
+					<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12" data-aos="fade-right">
+						<h3 class="Subtitle">Our Service Areas</h3>
+							<div class="row ptb-20">
+								<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6" data-aos="fade-right" data-aos-duration="1000">
+									<div class="contactServices">
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">Houston, TX</p>
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">Katy, TX</p>
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">Sugar Land, TX</p>
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">Missouri City, TX</p>
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">Cypress, TX</p>
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">The Woodlands, TX</p>
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">Spring, TX</p>
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">Pearland, TX</p>
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">Humble, TX</p>
+									</div>
+								</div>
+								<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6" data-aos="fade-right" data-aos-duration="1000">
+									<div class="contactServices">
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">Kingwood, TX</p>
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">League City, TX</p>
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">Friendswood, TX</p>
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">Pasadena, TX</p>
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">Fulshear, TX</p>
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">Richmond, TX</p>
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">Rosenberg, TX</p>
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">Baytown, TX</p>
+										<p> <img src="assets/images/tick-circle.png" alt="tick circle" class="img-fluid  me-2">Conroe, TX</p>
+									</div>
+								</div>
+							</div>
+					</div>
+					<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-delay="200">
+						<h3 class="Subtitle">We would like to hear from you</h3>
+						<form id="contactForm" class="ptb-20" name="contactForm" method="post" novalidate="novalidate" enctype="multipart/form-data">
+							<div class="row">
+								<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+									<div class="form-group mb-3">
+										<input type="text" class="form-control" name="contact_name" id="contact_name" placeholder="Your Name" required="">
+									</div>
+									<div class="form-group mb-3">
+										<input type="email" class="form-control" name="contact_email" id="contact_email" placeholder="Your Email" required="">
+									</div>
+								</div>
+								<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+										<div class="form-group mb-3">
+										<input type="text" class="form-control" name="contact_mobile" id="contact_mobile" placeholder="Your Mobile" required="">
+									</div>
+									<div class="form-group mb-3">
+										<input type="text" name="contact_address" id="contact_address" class="form-control" placeholder="Your Address Details" required="">
+									</div>
+								</div>
+								<div class="form-group mb-3">
+										<textarea name="contact_message" id="contact_message" rows="3" class="form-control" required="" placeholder="Your Message"></textarea>
+									</div>
+									<div class="form-group mb-3">
+										<input type="file" class="form-control" name="contact_file" id="contact_file" placeholder="File" required="">
+									</div>
+								
+									<button type="submit" class="btn btn-contactus">Send Your Message</button>
+							</div>
+						</form>
+						<h4 class="Subtitle">Texas Tree Expert</h4>
+						<p class="mainText">2401 Fontaine View Dr, Houston, TX 77057</p>
+						<p class="mainTextLinks"><a href="mailto: info@texastreeexpert.com"><i class="fa-solid fa-envelope me-2 FotterICons"></i>info@texastreeexpert.com</a> , <a href="tel:+18328482000"><i class="fa-solid fa-phone-volume me-2 FotterICons"></i>832-848-2000</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+	<iframe class="footerIframe" data-aos="zoom-in" data-aos-duration="1200" data-aos-offset="100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.2402886076006!2d-95.48649522976291!3d29.741758219257374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c3dc493d6595%3A0x36b998d958e6425b!2s2401%20Fountain%20View%20Dr%2C%20Houston%2C%20TX%2077057%2C%20USA!5e0!3m2!1sen!2sin!4v1790256308694!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+		</div>	
+	</div>
+	<div class="container-fluid bg-Greenmain">
+		<div class="row">
+			<div class="container mobilepaddingfooter" >
+				<div class="row align-items-center">
+					<div class="col-xxl-5 col-xl-5 col-lg-4 col-md-4 col-sm-4 col-12 ">
+						<p class="mainText text-white">© 2026 Texas Tree Expert. All Rights Reserved.</p>
+					</div>
+					<div class="col-xxl-7 col-xl-7 col-lg-8 col-md-8 col-sm-8 col-12 ">
+						<ul class="footer-menu">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li><a href="about-us.html">About Us</a></li>
+							<li><a href="#">Gallery</a></li>
+							<li><a href="#">Special Offers</a></li>
+							<li><a href="#">Testimonial</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/font-awesome.js"></script>
+	<script src="assets/js/select2.min.js"></script>
+	<script src="assets/js/jquery.validate.min.js"></script>
+	<script src="assets/js/additional-methods.min.js"></script>
+	<script src="assets/js/jquery-validation.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/sweetalert.js"></script>
+	<script src="assets/js/comman.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        if (typeof AOS !== 'undefined') {
+            AOS.init({
+                duration: 1000,
+                easing: 'ease-out-cubic',
+                once: true,
+                offset: 80,
+                delay: 0,
+                mirror: false,
+                anchorPlacement: 'top-bottom',
+                disable: false
+            });
+
+            // Recalculate positions after images/fonts/layout are ready.
+            window.addEventListener('load', function () {
+                AOS.refreshHard();
+            });
+
+            // Refresh after a short delay for dynamically sized sections.
+            setTimeout(function () {
+                AOS.refreshHard();
+            }, 500);
+        }
+    });
+</script>
+<script>
+
+$('.instaowl').slick({
+    vertical: true,          // Yehi magic karega: Bottom se Top move karega
+    verticalSwiping: true,
+    autoplay: true,
+    autoplaySpeed: 3000000,
+    slidesToShow: 2,         // Ek baar me kitne cards dikhane hain
+    slidesToScroll: 2,
+	margin: 10,
+    dots: true,              // Dots enable karne ke liye
+    arrows: false            // Agar arrows nahi chahiye
+});
+$('.instaowl .slick-slide').css('margin-bottom', '20px');
+
+</script>
+</body>
+
+</html>
